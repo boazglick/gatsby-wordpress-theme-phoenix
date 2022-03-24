@@ -6,8 +6,8 @@ module.exports = {
 		{
 		resolve: "gatsby-wordpress-theme-phoenix",
 		options: {
-			wordPressUrl: `${ process.env.GATSBY_WORDPRESS_SITE_URL }`,
-			frontendUrl: `${ process.env.FRONTEND_URL }`
+			wordPressUrl: 'https://hanemala.ussl.info',
+            frontendUrl: 'https://hanemala.co.il'
 		}
 	} ]
 };
