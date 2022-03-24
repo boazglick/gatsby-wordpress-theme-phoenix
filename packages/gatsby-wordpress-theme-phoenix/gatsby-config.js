@@ -6,6 +6,15 @@ module.exports = ({ wordPressUrl, frontendUrl }) => ({
 		siteUrl: `${frontendUrl}`
 	},
 	plugins: [
+		// Tell gatsby which theme you will be using.
+		{
+		resolve: "gatsby-wordpress-theme-phoenix",
+		options: {
+			wordPressUrl: 'https://hanemala.ussl.info',
+            frontendUrl: 'https://hanemala.co.il'
+		}
+	} ]
+};
 		`gatsby-plugin-react-helmet`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
